@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +15,26 @@
             /* Custom Tech/Gaming Cursor - Normal */
             cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%230f172a' stroke='%2322d3ee' stroke-width='2'%3E%3Cpath d='M3 3l7 18 4-7 7-4z'/%3E%3C/svg%3E"), auto;
         }
-        
+
         /* Custom Tech/Gaming Cursor - Hover/Pointer */
-        a, button, [role="button"], .cursor-pointer, canvas#bugJumperCanvas {
+        a,
+        button,
+        [role="button"],
+        .cursor-pointer,
+        canvas#bugJumperCanvas {
             cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%2322d3ee' stroke='%23ffffff' stroke-width='2'%3E%3Cpath d='M3 3l7 18 4-7 7-4z'/%3E%3C/svg%3E"), pointer !important;
         }
     </style>
 </head>
+
 <body class="bg-slate-950 text-slate-50 selection:bg-cyan-500/30">
 
     <!-- Navbar -->
     <nav class="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
-                <span class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+                <span
+                    class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
                     BR.Dev
                 </span>
                 <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
@@ -36,7 +43,8 @@
                     <a href="#experience" class="hover:text-cyan-400 transition-colors">Experience</a>
                     <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
                 </div>
-                <a href="#contact" class="px-4 py-2 rounded-md bg-cyan-500/10 text-cyan-400 border border-cyan-500/50 hover:bg-cyan-500 hover:text-slate-900 transition-all text-sm font-medium">
+                <a href="#contact"
+                    class="px-4 py-2 rounded-md bg-cyan-500/10 text-cyan-400 border border-cyan-500/50 hover:bg-cyan-500 hover:text-slate-900 transition-all text-sm font-medium">
                     Get in Touch
                 </a>
             </div>
@@ -46,32 +54,40 @@
     <main>
         <!-- Hero Section -->
         <section id="about" class="relative pt-32 pb-20 overflow-hidden flex flex-col items-center text-center">
-            
+
             <!-- Live Canvas Background - Opacity increased to 100% -->
-            <canvas id="hero-canvas" class="absolute inset-0 w-full h-full pointer-events-none z-0 opacity-100"></canvas>
-            
+            <canvas id="hero-canvas"
+                class="absolute inset-0 w-full h-full pointer-events-none z-0 opacity-100"></canvas>
+
             <div class="relative z-10 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto flex flex-col items-center text-center">
-                <div class="inline-flex items-center px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-sm text-slate-300 mb-6 shadow-[0_0_15px_rgba(6,182,212,0.15)]">
+                <div
+                    class="inline-flex items-center px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-sm text-slate-300 mb-6 shadow-[0_0_15px_rgba(6,182,212,0.15)]">
                     <span class="w-2 h-2 rounded-full bg-emerald-500 mr-2 animate-pulse"></span>
                     Available for new opportunities
                 </div>
                 <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-6">
-                    Hi, I'm <span class="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">Bhavesh Rathod</span>
+                    Hi, I'm <span
+                        class="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">Bhavesh
+                        Rathod</span>
                 </h1>
                 <h2 class="text-2xl md:text-3xl font-semibold text-slate-400 mb-8">
                     Unity Developer
                 </h2>
                 <p class="max-w-2xl text-lg text-slate-400 mb-10 leading-relaxed">
-                    Transforming complex game mechanics into immersive realities. Specializing in high-performance Unity 3D, competitive multiplayer networking, and cutting-edge VR/AR experiences.
+                    Transforming complex game mechanics into immersive realities. Specializing in high-performance Unity
+                    3D, competitive multiplayer networking, and cutting-edge VR/AR experiences.
                 </p>
                 <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4">
-                    <a href="#projects" class="px-8 py-3 rounded-lg bg-cyan-500 text-slate-900 font-semibold hover:bg-cyan-400 transition-colors flex items-center justify-center hover:shadow-[0_0_20px_rgba(6,182,212,0.4)]">
+                    <a href="#projects"
+                        class="px-8 py-3 rounded-lg bg-cyan-500 text-slate-900 font-semibold hover:bg-cyan-400 transition-colors flex items-center justify-center hover:shadow-[0_0_20px_rgba(6,182,212,0.4)]">
                         View My Work <i data-lucide="chevron-right" class="ml-2 w-5 h-5"></i>
                     </a>
-                    <a href="#contact" class="px-8 py-3 rounded-lg bg-slate-800 text-white font-semibold hover:bg-slate-700 transition-colors border border-slate-700 flex items-center justify-center hover:shadow-[0_0_20px_rgba(168,85,247,0.2)]">
+                    <a href="#contact"
+                        class="px-8 py-3 rounded-lg bg-slate-800 text-white font-semibold hover:bg-slate-700 transition-colors border border-slate-700 flex items-center justify-center hover:shadow-[0_0_20px_rgba(168,85,247,0.2)]">
                         Contact Me
                     </a>
-                    <a href="resume/Bhavesh_Rathod_Resume.pdf" download class="px-8 py-3 rounded-lg bg-purple-500/10 text-purple-400 font-semibold hover:bg-purple-500/20 transition-colors border border-purple-500/30 flex items-center justify-center hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]">
+                    <a href="resume/Bhavesh_Rathod_Resume.pdf" download
+                        class="px-8 py-3 rounded-lg bg-purple-500/10 text-purple-400 font-semibold hover:bg-purple-500/20 transition-colors border border-purple-500/30 flex items-center justify-center hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]">
                         <i data-lucide="download" class="w-5 h-5 mr-2"></i> Download Resume
                     </a>
                 </div>
@@ -87,53 +103,72 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <!-- Skill 1 -->
-                    <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
+                    <div
+                        class="bg-slate-900 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
                         <div class="p-3 bg-slate-800 rounded-lg inline-block mb-4">
                             <i data-lucide="gamepad-2" class="w-6 h-6 text-cyan-400"></i>
                         </div>
                         <h3 class="text-xl font-semibold text-white mb-4">Core Engine</h3>
                         <ul class="space-y-2 text-slate-400">
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Unity 3D</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>C#</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Unity UI</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Game Physics</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Unity 3D</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>C#</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Unity UI</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Game Physics</li>
                         </ul>
                     </div>
                     <!-- Skill 2 -->
-                    <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
+                    <div
+                        class="bg-slate-900 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
                         <div class="p-3 bg-slate-800 rounded-lg inline-block mb-4">
                             <i data-lucide="headset" class="w-6 h-6 text-purple-400"></i>
                         </div>
                         <h3 class="text-xl font-semibold text-white mb-4">Specializations</h3>
                         <ul class="space-y-2 text-slate-400">
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>VR/AR Development</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Meta XR SDK</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Multiplayer</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>API Integrations</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>VR/AR Development</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Meta XR SDK</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Multiplayer</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>API Integrations</li>
                         </ul>
                     </div>
                     <!-- Skill 3 -->
-                    <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
+                    <div
+                        class="bg-slate-900 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
                         <div class="p-3 bg-slate-800 rounded-lg inline-block mb-4">
                             <i data-lucide="layers" class="w-6 h-6 text-emerald-400"></i>
                         </div>
                         <h3 class="text-xl font-semibold text-white mb-4">Networking</h3>
                         <ul class="space-y-2 text-slate-400">
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Photon Engine</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Photon Fusion</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Socket.IO</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Photon Engine</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Photon Fusion</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Socket.IO</li>
                         </ul>
                     </div>
                     <!-- Skill 4 -->
-                    <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
+                    <div
+                        class="bg-slate-900 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
                         <div class="p-3 bg-slate-800 rounded-lg inline-block mb-4">
                             <i data-lucide="code-2" class="w-6 h-6 text-amber-400"></i>
                         </div>
                         <h3 class="text-xl font-semibold text-white mb-4">Tools & Other</h3>
                         <ul class="space-y-2 text-slate-400">
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Git</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>SVN</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Performance Optimization</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Git</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>SVN</li>
+                            <li class="flex items-center"><span
+                                    class="w-1.5 h-1.5 rounded-full bg-cyan-500 mr-2"></span>Performance Optimization
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -148,7 +183,8 @@
                         <h2 class="text-3xl font-bold text-white mb-4">Professional Journey</h2>
                         <div class="w-20 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full"></div>
                     </div>
-                    <div class="text-slate-400 flex items-center bg-slate-800 px-4 py-2 rounded-lg border border-slate-700">
+                    <div
+                        class="text-slate-400 flex items-center bg-slate-800 px-4 py-2 rounded-lg border border-slate-700">
                         <i data-lucide="monitor-smartphone" class="w-5 h-5 mr-2 text-cyan-400"></i>
                         5+ Years Total Experience
                     </div>
@@ -158,40 +194,74 @@
                     <!-- Job 1 -->
                     <div class="relative pl-8 md:pl-0">
                         <div class="hidden md:block absolute left-[15.5rem] top-0 bottom-0 w-px bg-slate-800"></div>
-                        <div class="md:flex items-start justify-between bg-slate-900/50 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors relative z-10 group">
+                        <div
+                            class="md:flex items-start justify-between bg-slate-900/50 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors relative z-10 group">
                             <div class="md:w-56 flex-shrink-0 mb-4 md:mb-0 md:pr-8 md:text-right">
-                                <h4 class="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors">3MEN STUDIO</h4>
+                                <h4 class="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    3MEN STUDIO</h4>
                                 <p class="text-slate-500 text-sm">1 Year (Recent)</p>
                             </div>
-                            <div class="hidden md:block absolute left-[15.5rem] top-8 w-3 h-3 bg-cyan-500 rounded-full transform -translate-x-1.5 ring-4 ring-slate-900"></div>
+                            <div
+                                class="hidden md:block absolute left-[15.5rem] top-8 w-3 h-3 bg-cyan-500 rounded-full transform -translate-x-1.5 ring-4 ring-slate-900">
+                            </div>
                             <div class="md:flex-grow md:pl-12">
-                                <h3 class="text-xl font-semibold text-slate-200 mb-4 flex items-center">Unity Developer</h3>
+                                <h3 class="text-xl font-semibold text-slate-200 mb-4 flex items-center">Unity Developer
+                                </h3>
                                 <ul class="space-y-3 text-slate-400">
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Architected and deployed core gameplay systems for a high-fidelity mobile title and an immersive Meta VR project.</span></li>
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Engineered VR-specific interactions using Meta XR SDK, optimizing spatial UI and hand-tracking.</span></li>
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Spearheaded performance profiling to maintain consistent 72/90 FPS on standalone VR hardware.</span></li>
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Mentored junior developers establishing best practices for scalable Unity architecture.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Architected and deployed core gameplay systems for a
+                                            high-fidelity mobile title and an immersive Meta VR project.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Engineered VR-specific interactions using Meta XR
+                                            SDK, optimizing spatial UI and hand-tracking.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Spearheaded performance profiling to maintain
+                                            consistent 72/90 FPS on standalone VR hardware.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Mentored junior developers establishing best
+                                            practices for scalable Unity architecture.</span></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Job 2 -->
                     <div class="relative pl-8 md:pl-0">
                         <div class="hidden md:block absolute left-[15.5rem] top-0 bottom-0 w-px bg-slate-800"></div>
-                        <div class="md:flex items-start justify-between bg-slate-900/50 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors relative z-10 group">
+                        <div
+                            class="md:flex items-start justify-between bg-slate-900/50 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors relative z-10 group">
                             <div class="md:w-56 flex-shrink-0 mb-4 md:mb-0 md:pr-8 md:text-right">
-                                <h4 class="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors">CAPERMINT TECHNOLOGIES</h4>
+                                <h4 class="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    CAPERMINT TECHNOLOGIES</h4>
                                 <p class="text-slate-500 text-sm">1 Year</p>
                             </div>
-                            <div class="hidden md:block absolute left-[15.5rem] top-8 w-3 h-3 bg-cyan-500 rounded-full transform -translate-x-1.5 ring-4 ring-slate-900"></div>
+                            <div
+                                class="hidden md:block absolute left-[15.5rem] top-8 w-3 h-3 bg-cyan-500 rounded-full transform -translate-x-1.5 ring-4 ring-slate-900">
+                            </div>
                             <div class="md:flex-grow md:pl-12">
-                                <h3 class="text-xl font-semibold text-slate-200 mb-4 flex items-center">Unity Developer</h3>
+                                <h3 class="text-xl font-semibold text-slate-200 mb-4 flex items-center">Unity Developer
+                                </h3>
                                 <ul class="space-y-3 text-slate-400">
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Prototyped and iterated on game ideas to test and validate gameplay concepts.</span></li>
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Implemented mechanics and systems for real-money mobile games using Unity.</span></li>
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Best practices in multiplayer development using Socket.IO.</span></li>
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Optimized games for high performance and responsiveness on mobile devices.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Prototyped and iterated on game ideas to test and
+                                            validate gameplay concepts.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Implemented mechanics and systems for real-money
+                                            mobile games using Unity.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Best practices in multiplayer development using
+                                            Socket.IO.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Optimized games for high performance and
+                                            responsiveness on mobile devices.</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -200,18 +270,32 @@
                     <!-- Job 3 -->
                     <div class="relative pl-8 md:pl-0">
                         <div class="hidden md:block absolute left-[15.5rem] top-0 bottom-0 w-px bg-slate-800"></div>
-                        <div class="md:flex items-start justify-between bg-slate-900/50 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors relative z-10 group">
+                        <div
+                            class="md:flex items-start justify-between bg-slate-900/50 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors relative z-10 group">
                             <div class="md:w-56 flex-shrink-0 mb-4 md:mb-0 md:pr-8 md:text-right">
-                                <h4 class="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors">3MEN STUDIO</h4>
+                                <h4 class="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    3MEN STUDIO</h4>
                                 <p class="text-slate-500 text-sm">3 Years</p>
                             </div>
-                            <div class="hidden md:block absolute left-[15.5rem] top-8 w-3 h-3 bg-cyan-500 rounded-full transform -translate-x-1.5 ring-4 ring-slate-900"></div>
+                            <div
+                                class="hidden md:block absolute left-[15.5rem] top-8 w-3 h-3 bg-cyan-500 rounded-full transform -translate-x-1.5 ring-4 ring-slate-900">
+                            </div>
                             <div class="md:flex-grow md:pl-12">
-                                <h3 class="text-xl font-semibold text-slate-200 mb-4 flex items-center">Unity Developer</h3>
+                                <h3 class="text-xl font-semibold text-slate-200 mb-4 flex items-center">Unity Developer
+                                </h3>
                                 <ul class="space-y-3 text-slate-400">
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Developed interactive and visually appealing games and simulations using Unity 3D.</span></li>
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Implemented gameplay mechanics, UI features, and game systems.</span></li>
-                                    <li class="flex items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span class="leading-relaxed">Collaborated with artists, designers, and developers to deliver high-quality products.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Developed interactive and visually appealing games
+                                            and simulations using Unity 3D.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Implemented gameplay mechanics, UI features, and
+                                            game systems.</span></li>
+                                    <li class="flex items-start"><i data-lucide="chevron-right"
+                                            class="w-5 h-5 text-purple-500 mr-2 flex-shrink-0 mt-0.5"></i><span
+                                            class="leading-relaxed">Collaborated with artists, designers, and developers
+                                            to deliver high-quality products.</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -227,159 +311,292 @@
                     <h2 class="text-3xl font-bold text-white mb-4">Featured Titles & Projects</h2>
                     <div class="w-20 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full"></div>
                 </div>
-                
+
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    
-                    <!-- NEW Project 1: Yummy Merge -->
-                    <a href="https://play.google.com/store/apps/details?id=com.brstudio.yummymerge.dropwatermelon" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
-                        <div class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
-                            <img src="images/Yummy Merge.jpg" alt="Yummy Merge:Drop to Watermelon" class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500" onerror="this.src='images/Yummy Merge.png'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.classList.remove('hidden');};">
-                            <div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
+
+                    <!-- NEW Project: Math Solitaire -->
+                    <a href="https://play.google.com/store/apps/details?id=com.brstudio.math.solitaire.brain.puzzle.offline"
+                        target="_blank" rel="noopener noreferrer"
+                        class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
+                        <div
+                            class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
+                            <img src="images/MathSolitaire.jpg" alt="Math Solitaire : Brain Game"
+                                class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
+                                onerror="this.src='images/MathSolitaire.png'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.classList.remove('hidden');};">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
                                 <i data-lucide="gamepad-2" class="w-16 h-16 mb-2 opacity-20"></i>
-                                <span class="text-sm font-medium opacity-50 px-4 text-center">Yummy Merge</span>
+                                <span class="text-sm font-medium opacity-50 px-4 text-center">Math Solitaire</span>
                             </div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none"></div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none">
+                            </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <div class="flex items-start justify-between gap-4 mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Yummy Merge:Drop to Watermelon</h3>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Math Solitaire : Brain Game</h3>
                                 <div class="text-slate-500 group-hover:text-cyan-400 transition-colors mt-1">
                                     <i data-lucide="external-link" class="w-5 h-5"></i>
                                 </div>
                             </div>
-                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Developed an engaging physics-based puzzle game inspired by the popular watermelon merge genre. Players drop and combine various food items to reach the ultimate goal. Features optimized 2D physics, satisfying visual feedback, and intuitive touch controls.</p>
+                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">A captivating
+                                brain-training puzzle game that blends classic solitaire card mechanics with
+                                mathematical challenges. Players solve equations and arrange card layouts to clear the
+                                board and test their cognitive limits.</p>
                             <div class="flex flex-wrap gap-2 mt-auto">
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Puzzle</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Physics</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Casual</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Puzzle</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Brain
+                                    Game</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Offline</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- NEW Project 1: Yummy Merge -->
+                    <a href="https://play.google.com/store/apps/details?id=com.brstudio.yummymerge.dropwatermelon"
+                        target="_blank" rel="noopener noreferrer"
+                        class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
+                        <div
+                            class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
+                            <img src="images/ItalianBrainrotMerge.jpg" alt="Italian Brainrot Merge Drop"
+                                class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
+                                onerror="this.src='images/ItalianBrainrotMerge.png'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.classList.remove('hidden');};">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
+                                <i data-lucide="gamepad-2" class="w-16 h-16 mb-2 opacity-20"></i>
+                                <span class="text-sm font-medium opacity-50 px-4 text-center">Italian Brainrot
+                                    Merge</span>
+                            </div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none">
+                            </div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex items-start justify-between gap-4 mb-3">
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Italian Brainrot Merge Drop</h3>
+                                <div class="text-slate-500 group-hover:text-cyan-400 transition-colors mt-1">
+                                    <i data-lucide="external-link" class="w-5 h-5"></i>
+                                </div>
+                            </div>
+                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Developed an engaging
+                                physics-based puzzle game inspired by the popular watermelon merge genre.
+                                Players drop and combine various Italian brainrot meme characters to reach
+                                the ultimate evolution. Features optimized 2D physics, satisfying visual feedback,
+                                and intuitive touch controls.</p>
+                            <div class="flex flex-wrap gap-2 mt-auto">
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Puzzle</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Physics</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Casual</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
                             </div>
                         </div>
                     </a>
 
                     <!-- Project 2 -->
-                    <a href="https://drive.google.com/drive/folders/1zfa_QEVjsVbYqSPKsZTDwr8ACzQvO_iy" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
-                        <div class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
-                            <img src="images/Shemaroo Verse.jpg" alt="Shemaroo Verse" class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
-                            <div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
+                    <a href="https://drive.google.com/drive/folders/1zfa_QEVjsVbYqSPKsZTDwr8ACzQvO_iy" target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
+                        <div
+                            class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
+                            <img src="images/Shemaroo Verse.jpg" alt="Shemaroo Verse"
+                                class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
+                                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
                                 <i data-lucide="gamepad-2" class="w-16 h-16 mb-2 opacity-20"></i>
                                 <span class="text-sm font-medium opacity-50 px-4 text-center">Shemaroo Verse</span>
                             </div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none"></div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none">
+                            </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <div class="flex items-start justify-between gap-4 mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Shemaroo Verse</h3>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Shemaroo Verse</h3>
                                 <div class="text-slate-500 group-hover:text-cyan-400 transition-colors mt-1">
                                     <i data-lucide="external-link" class="w-5 h-5"></i>
                                 </div>
                             </div>
-                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Engineered a persistent 3D virtual world using Photon Fusion. Features cinematic interactive systems, movie-based mini-games (action/adventure & endless runner), and AI-integrated NPCs for natural language conversations.</p>
+                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Engineered a persistent 3D
+                                virtual world using Photon Fusion. Features cinematic interactive systems, movie-based
+                                mini-games (action/adventure & endless runner), and AI-integrated NPCs for natural
+                                language conversations.</p>
                             <div class="flex flex-wrap gap-2 mt-auto">
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Photon Fusion</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">VR/Mobile</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Multiplayer</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Generative AI</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Photon
+                                    Fusion</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">VR/Mobile</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Multiplayer</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Generative
+                                    AI</span>
                             </div>
                         </div>
                     </a>
 
                     <!-- Project 3 -->
-                    <a href="https://playtoearn.com/blockchaingame/knockoutwars" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
-                        <div class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
-                            <img src="images/Knockout Wars.jpg" alt="Knockout Wars" class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
-                            <div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
+                    <a href="https://playtoearn.com/blockchaingame/knockoutwars" target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
+                        <div
+                            class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
+                            <img src="images/Knockout Wars.jpg" alt="Knockout Wars"
+                                class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
+                                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
                                 <i data-lucide="gamepad-2" class="w-16 h-16 mb-2 opacity-20"></i>
                                 <span class="text-sm font-medium opacity-50 px-4 text-center">Knockout Wars</span>
                             </div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none"></div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none">
+                            </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <div class="flex items-start justify-between gap-4 mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Knockout Wars</h3>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Knockout Wars</h3>
                                 <div class="text-slate-500 group-hover:text-cyan-400 transition-colors mt-1">
                                     <i data-lucide="external-link" class="w-5 h-5"></i>
                                 </div>
                             </div>
-                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Mobile fighting game centered around dynamic fireball combat. Integrated a robust multiplayer PvP infrastructure, supporting global player interaction, real-time battles, and alliances.</p>
+                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Mobile fighting game
+                                centered around dynamic fireball combat. Integrated a robust multiplayer PvP
+                                infrastructure, supporting global player interaction, real-time battles, and alliances.
+                            </p>
                             <div class="flex flex-wrap gap-2 mt-auto">
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">PvP</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Multiplayer</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Action</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">PvP</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Multiplayer</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Action</span>
                             </div>
                         </div>
                     </a>
 
                     <!-- Project 4 -->
-                    <a href="https://play.google.com/store/apps/details?id=com.threemenstudio.crazyimpossiblemonstertrucksurvivor" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
-                        <div class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
-                            <img src="images/Ultimate Monster Truck.jpeg" alt="Ultimate Monster Truck" class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
-                            <div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
+                    <a href="https://play.google.com/store/apps/details?id=com.threemenstudio.crazyimpossiblemonstertrucksurvivor"
+                        target="_blank" rel="noopener noreferrer"
+                        class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
+                        <div
+                            class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
+                            <img src="images/Ultimate Monster Truck.jpeg" alt="Ultimate Monster Truck"
+                                class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
+                                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
                                 <i data-lucide="gamepad-2" class="w-16 h-16 mb-2 opacity-20"></i>
-                                <span class="text-sm font-medium opacity-50 px-4 text-center">Ultimate Monster Truck: 3D</span>
+                                <span class="text-sm font-medium opacity-50 px-4 text-center">Ultimate Monster Truck:
+                                    3D</span>
                             </div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none"></div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none">
+                            </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <div class="flex items-start justify-between gap-4 mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Ultimate Monster Truck: 3D</h3>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Ultimate Monster Truck: 3D</h3>
                                 <div class="text-slate-500 group-hover:text-cyan-400 transition-colors mt-1">
                                     <i data-lucide="external-link" class="w-5 h-5"></i>
                                 </div>
                             </div>
-                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">High-octane, free-to-play game featuring extreme car stunts. Implemented advanced physics and stunt mechanics for realistic monster truck handling on intricate, impossible tracks.</p>
+                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">High-octane, free-to-play
+                                game featuring extreme car stunts. Implemented advanced physics and stunt mechanics for
+                                realistic monster truck handling on intricate, impossible tracks.</p>
                             <div class="flex flex-wrap gap-2 mt-auto">
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Physics</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">3D</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Monetization</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Physics</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">3D</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Monetization</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
                             </div>
                         </div>
                     </a>
 
                     <!-- Project 5 -->
-                    <a href="https://bermudaislandgames.com/hiddengems2/" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
-                        <div class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
-                            <img src="images/Hidden Gems of Bermuda 2 Game.jpeg" alt="Hidden Gems of Bermuda 2" class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
-                            <div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
+                    <a href="https://bermudaislandgames.com/hiddengems2/" target="_blank" rel="noopener noreferrer"
+                        class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
+                        <div
+                            class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
+                            <img src="images/Hidden Gems of Bermuda 2 Game.jpeg" alt="Hidden Gems of Bermuda 2"
+                                class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
+                                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
                                 <i data-lucide="gamepad-2" class="w-16 h-16 mb-2 opacity-20"></i>
-                                <span class="text-sm font-medium opacity-50 px-4 text-center">Hidden Gems of Bermuda 2</span>
+                                <span class="text-sm font-medium opacity-50 px-4 text-center">Hidden Gems of Bermuda
+                                    2</span>
                             </div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none"></div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none">
+                            </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <div class="flex items-start justify-between gap-4 mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Hidden Gems of Bermuda 2</h3>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Hidden Gems of Bermuda 2</h3>
                                 <div class="text-slate-500 group-hover:text-cyan-400 transition-colors mt-1">
                                     <i data-lucide="external-link" class="w-5 h-5"></i>
                                 </div>
                             </div>
-                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">A match-3 puzzle game integrated with additional mini-games including card matching, maze navigation, and solving puzzles. Optimized overall UX for intuitive player experiences.</p>
+                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">A match-3 puzzle game
+                                integrated with additional mini-games including card matching, maze navigation, and
+                                solving puzzles. Optimized overall UX for intuitive player experiences.</p>
                             <div class="flex flex-wrap gap-2 mt-auto">
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Match-3</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Puzzle</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">UI/UX</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Match-3</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Puzzle</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">UI/UX</span>
                             </div>
                         </div>
                     </a>
 
                     <!-- Project 6 -->
-                    <a href="https://drive.google.com/drive/folders/1qG2JcMVvRLSvzyXqKSsUVYikNz0acZ4Z" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
-                        <div class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
-                            <img src="images/Tango Charlie VR Game.jpeg" 
-                                alt="Tango Charlie (Meta Quest VR)" 
+                    <a href="https://drive.google.com/drive/folders/1qG2JcMVvRLSvzyXqKSsUVYikNz0acZ4Z" target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
+                        <div
+                            class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
+                            <img src="images/Tango Charlie VR Game.jpeg" alt="Tango Charlie (Meta Quest VR)"
                                 class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
                                 onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
 
                             <!-- Fallback (Hidden by Default) -->
-                            <div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
                                 <i data-lucide="gamepad-2" class="w-16 h-16 mb-2 opacity-20"></i>
-                                <span class="text-sm font-medium opacity-50 px-4 text-center">Tango Charlie (Meta Quest VR)</span>
+                                <span class="text-sm font-medium opacity-50 px-4 text-center">Tango Charlie (Meta Quest
+                                    VR)</span>
                             </div>
 
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none"></div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none">
+                            </div>
                         </div>
 
                         <div class="p-6 flex flex-col flex-grow">
@@ -392,66 +609,106 @@
                                 </div>
                             </div>
                             <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">
-                                Immersive VR military simulation featuring realistic weapon handling, grenade physics, and haptic feedback. Developed 9+ high-stakes missions and historically-inspired Kargil War expansion optimized for 72+ FPS.
+                                Immersive VR military simulation featuring realistic weapon handling, grenade physics,
+                                and haptic feedback. Developed 9+ high-stakes missions and historically-inspired Kargil
+                                War expansion optimized for 72+ FPS.
                             </p>
                             <div class="flex flex-wrap gap-2 mt-auto">
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Meta Quest</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">VR Combat</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">AI</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Optimization</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Meta
+                                    Quest</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">VR
+                                    Combat</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">AI</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Optimization</span>
                             </div>
                         </div>
                     </a>
 
                     <!-- Project 7 -->
-                    <a href="https://ludofantasy.com/" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
-                        <div class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
-                            <img src="images/ludo fantasy.jpeg" alt="Ludo Fantasy & Skill Fantasy" class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
-                            <div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
+                    <a href="https://ludofantasy.com/" target="_blank" rel="noopener noreferrer"
+                        class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
+                        <div
+                            class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
+                            <img src="images/ludo fantasy.jpeg" alt="Ludo Fantasy & Skill Fantasy"
+                                class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
+                                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
                                 <i data-lucide="gamepad-2" class="w-16 h-16 mb-2 opacity-20"></i>
-                                <span class="text-sm font-medium opacity-50 px-4 text-center">Ludo Fantasy & Skill Fantasy</span>
+                                <span class="text-sm font-medium opacity-50 px-4 text-center">Ludo Fantasy & Skill
+                                    Fantasy</span>
                             </div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none"></div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none">
+                            </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <div class="flex items-start justify-between gap-4 mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Ludo Fantasy & Skill Fantasy</h3>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Ludo Fantasy & Skill Fantasy</h3>
                                 <div class="text-slate-500 group-hover:text-cyan-400 transition-colors mt-1">
                                     <i data-lucide="external-link" class="w-5 h-5"></i>
                                 </div>
                             </div>
-                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Real-money multiplayer platforms. Utilized Socket.IO and Photon Engine for real-time synchronization. Integrated secure payment gateways and smooth synchronous racing/board experiences.</p>
+                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Real-money multiplayer
+                                platforms. Utilized Socket.IO and Photon Engine for real-time synchronization.
+                                Integrated secure payment gateways and smooth synchronous racing/board experiences.</p>
                             <div class="flex flex-wrap gap-2 mt-auto">
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Socket.IO</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Photon Engine</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Real-Money</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Socket.IO</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Photon
+                                    Engine</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Real-Money</span>
                             </div>
                         </div>
                     </a>
 
                     <!-- Project 8: Home Design -->
-                    <a href="https://play.google.com/store/apps/details?id=com.giraffegames.ggm3&hl=en" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
-                        <div class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
-                            <img src="images/homedesign.jpg" alt="Home Design: Miss Robins Home" class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
-                            <div class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
+                    <a href="https://play.google.com/store/apps/details?id=com.giraffegames.ggm3&hl=en" target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 group flex flex-col h-full block cursor-pointer">
+                        <div
+                            class="relative aspect-square overflow-hidden bg-slate-950 flex items-center justify-center p-6">
+                            <img src="images/homedesign.jpg" alt="Home Design: Miss Robins Home"
+                                class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
+                                onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden');">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-slate-600 hidden">
                                 <i data-lucide="gamepad-2" class="w-16 h-16 mb-2 opacity-20"></i>
-                                <span class="text-sm font-medium opacity-50 px-4 text-center">Home Design: Miss Robins Home</span>
+                                <span class="text-sm font-medium opacity-50 px-4 text-center">Home Design: Miss Robins
+                                    Home</span>
                             </div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none"></div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent pointer-events-none">
+                            </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <div class="flex items-start justify-between gap-4 mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Home Design : Miss Robins Home</h3>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Home Design : Miss Robins Home</h3>
                                 <div class="text-slate-500 group-hover:text-cyan-400 transition-colors mt-1">
                                     <i data-lucide="external-link" class="w-5 h-5"></i>
                                 </div>
                             </div>
-                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Crafted intuitive match-3 mechanics ensuring an addictive player experience through balanced difficulty. Integrated rewarding feedback systems and deployed real-time analytics for data-driven adjustments. Conducted extensive user testing and R&D to boost retention.</p>
+                            <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Crafted intuitive match-3
+                                mechanics ensuring an addictive player experience through balanced difficulty.
+                                Integrated rewarding feedback systems and deployed real-time analytics for data-driven
+                                adjustments. Conducted extensive user testing and R&D to boost retention.</p>
                             <div class="flex flex-wrap gap-2 mt-auto">
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Match-3</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Analytics</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">R&D</span>
-                                <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Match-3</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Analytics</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">R&D</span>
+                                <span
+                                    class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">Mobile</span>
                             </div>
                         </div>
                     </a>
@@ -465,21 +722,29 @@
                 <div class="mb-8 flex flex-col items-center">
                     <h2 class="text-3xl font-bold text-white mb-4">Quick Break?</h2>
                     <div class="w-20 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full"></div>
-                    <p class="mt-4 text-slate-400">Help the Dev dodge the bugs! Click on the game and press <kbd class="px-2 py-1 bg-slate-800 rounded-md border border-slate-700 text-sm">Space</kbd> or tap to jump.</p>
+                    <p class="mt-4 text-slate-400">Help the Dev dodge the bugs! Click on the game and press <kbd
+                            class="px-2 py-1 bg-slate-800 rounded-md border border-slate-700 text-sm">Space</kbd> or tap
+                        to jump.</p>
                 </div>
-                
-                <div class="relative w-full max-w-2xl mx-auto bg-slate-900 border-2 border-slate-700 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(6,182,212,0.1)] group">
+
+                <div
+                    class="relative w-full max-w-2xl mx-auto bg-slate-900 border-2 border-slate-700 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(6,182,212,0.1)] group">
                     <!-- Game Canvas -->
-                    <canvas id="bugJumperCanvas" width="600" height="200" class="w-full h-auto block focus:outline-none" tabindex="0"></canvas>
-                    
+                    <canvas id="bugJumperCanvas" width="600" height="200" class="w-full h-auto block focus:outline-none"
+                        tabindex="0"></canvas>
+
                     <!-- Overlays -->
-                    <div id="gameOverlay" class="absolute inset-0 bg-slate-900/80 flex flex-col items-center justify-center backdrop-blur-sm transition-opacity duration-300">
+                    <div id="gameOverlay"
+                        class="absolute inset-0 bg-slate-900/80 flex flex-col items-center justify-center backdrop-blur-sm transition-opacity duration-300">
                         <h3 id="gameTitle" class="text-2xl font-bold text-cyan-400 mb-2">Bug Jumper</h3>
                         <p id="gameSub" class="text-slate-300 mb-6">Press Space or Tap to Start</p>
-                        <button id="startGameBtn" class="px-6 py-2 rounded-lg bg-cyan-500 text-slate-900 font-bold hover:bg-cyan-400 transition-colors shadow-[0_0_15px_rgba(6,182,212,0.3)]">Play Now</button>
+                        <button id="startGameBtn"
+                            class="px-6 py-2 rounded-lg bg-cyan-500 text-slate-900 font-bold hover:bg-cyan-400 transition-colors shadow-[0_0_15px_rgba(6,182,212,0.3)]">Play
+                            Now</button>
                     </div>
-                    
-                    <div class="absolute top-4 right-4 text-slate-400 font-mono text-sm font-bold bg-slate-900/50 px-3 py-1 rounded border border-slate-700 backdrop-blur-sm">
+
+                    <div
+                        class="absolute top-4 right-4 text-slate-400 font-mono text-sm font-bold bg-slate-900/50 px-3 py-1 rounded border border-slate-700 backdrop-blur-sm">
                         Score: <span id="gameScore" class="text-cyan-400">0</span>
                     </div>
                 </div>
@@ -489,49 +754,71 @@
         <!-- Contact Section -->
         <section id="contact" class="py-24 bg-slate-900/80 border-t border-slate-800 relative overflow-hidden">
             <!-- Decorative background elements -->
-            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-lg h-64 bg-cyan-500/10 blur-[100px] rounded-full pointer-events-none"></div>
-            
+            <div
+                class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-lg h-64 bg-cyan-500/10 blur-[100px] rounded-full pointer-events-none">
+            </div>
+
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
                 <div class="mb-12 flex flex-col items-center">
                     <h2 class="text-4xl font-extrabold text-white mb-4">Let's Connect</h2>
                     <div class="w-24 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full"></div>
                     <p class="mt-6 text-lg text-slate-400 max-w-xl">
-                        Looking to build immersive games or high-performance simulations? Feel free to reach out for collaborations, opportunities, or just to say hi.
+                        Looking to build immersive games or high-performance simulations? Feel free to reach out for
+                        collaborations, opportunities, or just to say hi.
                     </p>
                 </div>
-                
+
                 <div class="flex flex-col md:flex-row flex-wrap justify-center items-center gap-6">
                     <!-- Phone Direct Call Button -->
                     <!-- IMPORTANT: Replace the number in href="tel:..." below with your actual phone number -->
-                    <a href="tel:+917698718287" class="flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all duration-300 border border-slate-700 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] group">
+                    <a href="tel:+917698718287"
+                        class="flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all duration-300 border border-slate-700 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] group">
                         <div class="bg-cyan-500/10 p-2 rounded-lg mr-4 group-hover:bg-cyan-500/20 transition-colors">
-                            <i data-lucide="phone" class="w-6 h-6 text-cyan-400 group-hover:scale-110 transition-transform"></i>
+                            <i data-lucide="phone"
+                                class="w-6 h-6 text-cyan-400 group-hover:scale-110 transition-transform"></i>
                         </div>
                         <div class="text-left">
-                            <span class="block text-xs text-slate-400 font-medium uppercase tracking-wider mb-0.5">Direct Line</span>
-                            <span class="font-semibold text-lg text-slate-100 group-hover:text-cyan-400 transition-colors">Call Me</span>
+                            <span
+                                class="block text-xs text-slate-400 font-medium uppercase tracking-wider mb-0.5">Direct
+                                Line</span>
+                            <span
+                                class="font-semibold text-lg text-slate-100 group-hover:text-cyan-400 transition-colors">Call
+                                Me</span>
                         </div>
                     </a>
 
                     <!-- Email One-Click Button -->
-                    <a href="mailto:rathodbhavesh1611@gmail.com" class="flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all duration-300 border border-slate-700 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] group">
-                        <div class="bg-purple-500/10 p-2 rounded-lg mr-4 group-hover:bg-purple-500/20 transition-colors">
-                            <i data-lucide="mail" class="w-6 h-6 text-purple-400 group-hover:scale-110 transition-transform"></i>
+                    <a href="mailto:rathodbhavesh1611@gmail.com"
+                        class="flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all duration-300 border border-slate-700 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] group">
+                        <div
+                            class="bg-purple-500/10 p-2 rounded-lg mr-4 group-hover:bg-purple-500/20 transition-colors">
+                            <i data-lucide="mail"
+                                class="w-6 h-6 text-purple-400 group-hover:scale-110 transition-transform"></i>
                         </div>
                         <div class="text-left">
-                            <span class="block text-xs text-slate-400 font-medium uppercase tracking-wider mb-0.5">Drop a Line</span>
-                            <span class="font-semibold text-lg text-slate-100 group-hover:text-cyan-400 transition-colors">Send Email</span>
+                            <span class="block text-xs text-slate-400 font-medium uppercase tracking-wider mb-0.5">Drop
+                                a Line</span>
+                            <span
+                                class="font-semibold text-lg text-slate-100 group-hover:text-cyan-400 transition-colors">Send
+                                Email</span>
                         </div>
                     </a>
 
                     <!-- LinkedIn One-Click Button -->
-                    <a href="https://www.linkedin.com/in/bhavesh-rathod-2b5071103?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all duration-300 border border-slate-700 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] group">
+                    <a href="https://www.linkedin.com/in/bhavesh-rathod-2b5071103?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank" rel="noopener noreferrer"
+                        class="flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all duration-300 border border-slate-700 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] group">
                         <div class="bg-[#0A66C2]/10 p-2 rounded-lg mr-4 group-hover:bg-[#0A66C2]/20 transition-colors">
-                            <i data-lucide="linkedin" class="w-6 h-6 text-[#0A66C2] group-hover:scale-110 transition-transform"></i>
+                            <i data-lucide="linkedin"
+                                class="w-6 h-6 text-[#0A66C2] group-hover:scale-110 transition-transform"></i>
                         </div>
                         <div class="text-left">
-                            <span class="block text-xs text-slate-400 font-medium uppercase tracking-wider mb-0.5">Professional Network</span>
-                            <span class="font-semibold text-lg text-slate-100 group-hover:text-cyan-400 transition-colors">LinkedIn Profile</span>
+                            <span
+                                class="block text-xs text-slate-400 font-medium uppercase tracking-wider mb-0.5">Professional
+                                Network</span>
+                            <span
+                                class="font-semibold text-lg text-slate-100 group-hover:text-cyan-400 transition-colors">LinkedIn
+                                Profile</span>
                         </div>
                     </a>
                 </div>
@@ -543,11 +830,13 @@
     <!-- Footer -->
     <footer class="bg-slate-950 py-8 border-t border-slate-800/50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
-            <span class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-4">
+            <span
+                class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-4">
                 BR.Dev
             </span>
             <p class="text-slate-500 text-sm text-center">
-                &copy; <script>document.write(new Date().getFullYear())</script> Bhavesh Rathod. All rights reserved.
+                &copy;
+                <script>document.write(new Date().getFullYear())</script> Bhavesh Rathod. All rights reserved.
             </p>
         </div>
     </footer>
@@ -559,13 +848,13 @@
 
     <!-- Upgraded Interactive Game-Dev Canvas -->
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             const canvas = document.getElementById('hero-canvas');
             const ctx = canvas.getContext('2d');
             const heroSection = document.getElementById('about');
 
             let particlesArray = [];
-            
+
             // Mouse properties for physics interactions
             let mouse = {
                 x: null,
@@ -574,13 +863,13 @@
             };
 
             // Track mouse accurately across the window
-            window.addEventListener('mousemove', function(event) {
+            window.addEventListener('mousemove', function (event) {
                 const rect = canvas.getBoundingClientRect();
                 mouse.x = event.clientX - rect.left;
                 mouse.y = event.clientY - rect.top;
             });
 
-            window.addEventListener('mouseout', function() {
+            window.addEventListener('mouseout', function () {
                 mouse.x = null;
                 mouse.y = null;
             });
@@ -608,14 +897,14 @@
                     this.baseX = this.x;
                     this.baseY = this.y;
                 }
-                
+
                 draw() {
                     ctx.beginPath();
                     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
                     ctx.fillStyle = this.color;
                     ctx.fill();
                 }
-                
+
                 update() {
                     // Standard floating movement
                     this.x += this.dx;
@@ -630,17 +919,17 @@
                         let dx = mouse.x - this.x;
                         let dy = mouse.y - this.y;
                         let distance = Math.sqrt(dx * dx + dy * dy);
-                        
+
                         if (distance < mouse.radius) {
                             // Calculate push force
                             const forceDirectionX = dx / distance;
                             const forceDirectionY = dy / distance;
                             const force = (mouse.radius - distance) / mouse.radius;
-                            
+
                             // Apply push multiplier
                             const directionX = forceDirectionX * force * 4;
                             const directionY = forceDirectionY * force * 4;
-                            
+
                             this.x -= directionX;
                             this.y -= directionY;
                         }
@@ -654,7 +943,7 @@
                 particlesArray = [];
                 // Dynamic amount based on screen size (denser than before)
                 let numberOfParticles = Math.floor((canvas.width * canvas.height) / 7000);
-                
+
                 // Prevent lag on massive screens
                 if (numberOfParticles > 250) numberOfParticles = 250;
 
@@ -667,7 +956,7 @@
                     let dx = (Math.random() - 0.5) * 1.5; // X drift speed
                     let dy = (Math.random() - 0.5) * 1.5; // Y drift speed
                     let color = colors[Math.floor(Math.random() * colors.length)];
-                    
+
                     particlesArray.push(new Particle(x, y, dx, dy, size, color));
                 }
             }
@@ -681,7 +970,7 @@
                         let distance = dx * dx + dy * dy;
 
                         // If close enough, draw line (approx 120 pixels)
-                        if (distance < 14400) { 
+                        if (distance < 14400) {
                             let opacity = 1 - (distance / 14400);
                             ctx.strokeStyle = `rgba(34, 211, 238, ${opacity * 0.4})`; // Glowing cyan lines
                             ctx.lineWidth = 1.2;
@@ -708,7 +997,7 @@
                 requestAnimationFrame(animate);
                 if (isHeroVisible) {
                     ctx.clearRect(0, 0, canvas.width, canvas.height);
-                    
+
                     particlesArray.forEach(particle => particle.update());
                     connectParticles();
                 }
@@ -821,10 +1110,10 @@
 
         function checkCollision(p, o) {
             // Slight padding so collisions aren't overly punishing
-            return p.x < o.x + o.w - 2 && 
-                   p.x + p.w > o.x + 2 && 
-                   p.y < o.y + o.h - 2 && 
-                   p.y + p.h > o.y + 2;
+            return p.x < o.x + o.w - 2 &&
+                p.x + p.w > o.x + 2 &&
+                p.y < o.y + o.h - 2 &&
+                p.y + p.h > o.y + 2;
         }
 
         function drawBackground() {
@@ -839,7 +1128,7 @@
 
         function runGameLoop() {
             if (!isPlaying) return;
-            
+
             gameCtx.clearRect(0, 0, gameCanvas.width, gameCanvas.height);
             drawBackground();
 
@@ -874,7 +1163,7 @@
                     score++;
                     scoreEl.innerText = score;
                     // Increase speed subtly
-                    if (score % 5 === 0) gameSpeed += 0.2; 
+                    if (score % 5 === 0) gameSpeed += 0.2;
                 }
             }
 
@@ -903,7 +1192,7 @@
         }
 
         // --- Controls ---
-        
+
         // Keyboard (Spacebar / Up Arrow)
         window.addEventListener('keydown', (e) => {
             if (e.code === 'Space' || e.code === 'ArrowUp') {
@@ -921,13 +1210,13 @@
             if (!isPlaying) initiateGame();
             else player.jump();
         });
-        
+
         // Touch Screen
         gameCanvas.addEventListener('touchstart', (e) => {
             if (isPlaying) e.preventDefault(); // Only trap scroll if playing
             if (!isPlaying) initiateGame();
             else player.jump();
-        }, {passive: false});
+        }, { passive: false });
 
         startBtn.addEventListener('click', initiateGame);
 
@@ -936,4 +1225,5 @@
         player.draw();
     </script>
 </body>
+
 </html>
