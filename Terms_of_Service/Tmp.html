@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - BRStudio Games</title>
+    <meta name="description" content="Terms of Service for mobile games and applications published by BRStudio.">
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --text-main: #e6edf3;
+            --text-muted: #8b949e;
+            --accent-gold: #e5a93c;
+            --accent-gold-hover: #f3be5c;
+            --link-color: #58a6ff;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-family);
+            line-height: 1.7;
+            padding: 30px 16px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px 36px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(229, 169, 60, 0.15);
+            color: var(--accent-gold);
+            border: 1px solid rgba(229, 169, 60, 0.3);
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 2.1rem;
+            color: #ffffff;
+            margin-bottom: 8px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .app-meta {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .app-meta strong {
+            color: var(--text-main);
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            color: var(--accent-gold);
+            margin-top: 32px;
+            margin-bottom: 14px;
+            font-weight: 600;
+            border-left: 3px solid var(--accent-gold);
+            padding-left: 10px;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #ffffff;
+            margin-top: 18px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #c9d1d9;
+        }
+
+        ul {
+            margin-left: 24px;
+            margin-bottom: 18px;
+            color: #c9d1d9;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: rgba(88, 166, 255, 0.08);
+            border: 1px solid rgba(88, 166, 255, 0.25);
+            border-radius: 8px;
+            padding: 18px 20px;
+            margin: 22px 0;
+            font-size: 0.95rem;
+        }
+
+        .highlight-box strong {
+            color: #58a6ff;
+        }
+
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 14px;
+            margin: 16px 0 24px 0;
+        }
+
+        .game-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 14px 16px;
+            font-size: 0.92rem;
+            color: #e6edf3;
+            overflow-wrap: break-word;
+            word-break: break-word;
+        }
+
+        .game-item strong {
+            color: var(--accent-gold);
+            display: block;
+            margin-bottom: 4px;
+            font-size: 0.98rem;
+        }
+
+        .game-item .sub-label {
+            display: block;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            margin-bottom: 6px;
+        }
+
+        code {
+            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            font-size: 0.78rem;
+            background: rgba(110, 118, 129, 0.2);
+            color: #79c0ff;
+            padding: 3px 6px;
+            border-radius: 4px;
+            display: inline-block;
+            word-break: break-all;
+            overflow-wrap: anywhere;
+            white-space: normal;
+            max-width: 100%;
+            line-height: 1.4;
+        }
+
+        .caps-notice {
+            font-size: 0.88rem;
+            color: #a5b4fc;
+            background: rgba(165, 180, 252, 0.06);
+            border: 1px solid rgba(165, 180, 252, 0.2);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #79c0ff;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 14px 8px;
+            }
+            .container {
+                padding: 24px 18px;
+            }
+            h1 {
+                font-size: 1.65rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+            .games-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="badge">Legal Document</div>
+        <h1>Terms of Service</h1>
+        <div class="app-meta">
+            <strong>Developer / Publisher:</strong> BRStudio &nbsp;|&nbsp; 
+            <strong>Effective Date:</strong> November 19, 2026 &nbsp;|&nbsp; 
+            <strong>Jurisdiction:</strong> India
+        </div>
+    </div>
+
+    <div class="highlight-box">
+        <strong>Important Notice:</strong> Please read these Terms of Service carefully before downloading, installing, or playing any games or applications published by <strong>BRStudio</strong>. By accessing or playing any of our games, you agree to be bound by all terms, conditions, and policies described herein.
+    </div>
+
+    <h2>1. Agreement to Terms</h2>
+    <p>These Terms of Service ("Terms") constitute a legally binding agreement between you ("User", "you", or "your") and <strong>BRStudio</strong> ("Company", "we", "us", or "our"), regarding your use of mobile applications, games, software, and related services published by BRStudio on the Google Play Store (collectively, the "Services" or "Games").</p>
+    <p>If you do not agree to these Terms, you must not download, install, access, or play our Games.</p>
+
+    <h2>2. Scope & Covered Applications</h2>
+    <p>These Terms apply to all mobile games and interactive applications developed and published under the <strong>BRStudio</strong> developer account on the Google Play Store, including but not limited to:</p>
+
+    <div class="games-grid">
+        <div class="game-item">
+            <strong>Italian Brainrot Merge Drop</strong>
+            <span class="sub-label">Merge &amp; Drop Puzzle Game</span>
+            <code>com.brstudio.yummymerge.dropwatermelon</code>
+        </div>
+        <div class="game-item">
+            <strong>Solitaire Sort</strong>
+            <span class="sub-label">Card Sort &amp; Stacking Puzzle</span>
+            <code>com.brstudio.solitaire.sort.stack</code>
+        </div>
+        <div class="game-item">
+            <strong>Math Solitaire : Brain Game</strong>
+            <span class="sub-label">Math &amp; Logic Solitaire</span>
+            <code>com.brstudio.math.solitaire.brain.puzzle.offline</code>
+        </div>
+        <div class="game-item">
+            <strong>Word Connect: Sort Jam</strong>
+            <span class="sub-label">Word Puzzle &amp; Brain Training</span>
+            <code>com.brstudio.word.connect.sort.jam</code>
+        </div>
+        <div class="game-item">
+            <strong>Hexa Arrow Match Puzzle</strong>
+            <span class="sub-label">Hexagonal Arrow Puzzle Game</span>
+            <code>com.brstudio.hexa.arrow.match.puzzle</code>
+        </div>
+        <div class="game-item">
+            <strong>Pupdoku: Logic Brain Puzzle</strong>
+            <span class="sub-label">Casual Logic Puzzle Adventure</span>
+            <code>com.brstudio.pupdoku.logic.brain.puzzle</code>
+        </div>
+    </div>
+    <p>These Terms also apply to any future updates, downloadable content, sequels, or new titles released by BRStudio unless accompanied by a separate agreement.</p>
+
+    <h2>3. Eligibility & Minimum Age</h2>
+    <p>You must be at least <strong>13 years old</strong> (or the minimum legal age required in your jurisdiction, such as 16 in certain European Economic Area countries) to play our Games. If you are under the legal age of majority in your jurisdiction, you confirm that your parent or legal guardian has reviewed and agreed to these Terms on your behalf.</p>
+    <p>Parents and legal guardians are responsible for the acts of their children when using our Games, including any financial transactions and in-game ad interactions.</p>
+
+    <h2>4. License & Intellectual Property</h2>
+    <h3>4.1 Limited License</h3>
+    <p>Subject to your compliance with these Terms, BRStudio grants you a revocable, non-exclusive, non-transferable, non-sublicensable, limited personal license to install and play our Games on personal mobile devices solely for non-commercial entertainment purposes.</p>
+    
+    <h3>4.2 Ownership of Intellectual Property</h3>
+    <p>All rights, title, and intellectual property rights in and to our Games—including source code, game mechanics, 2D/3D graphics, character artwork, animations, sounds, music, visual effects, trademarks, and logos—belong exclusively to <strong>BRStudio</strong> or its authorized licensors.</p>
+    <p>You may not copy, modify, distribute, decompile, reverse engineer, extract source code, disassemble, or create derivative works from any part of our Games.</p>
+
+    <h2>5. Virtual Items & In-Game Economy</h2>
+    <h3>5.1 Virtual Items, Currency & Boosters</h3>
+    <p>Our Games may include virtual features such as coins, gems, puzzle boosters (e.g., shuffles, hammers, hints, hands), character unlocks, board expansions, and milestone progressions.</p>
+
+    <h3>5.2 No Real Monetary Value</h3>
+    <p>Virtual currencies, goods, points, and items are licensed to you, not sold. They hold <strong>zero real-world cash value</strong>, do not constitute personal property, and cannot be redeemed for real currency, physical goods, or services from BRStudio or any third party. Virtual items cannot be traded, sold, or transferred between accounts or individuals.</p>
+
+    <h2>6. In-App Purchases & Billing</h2>
+    <p>Certain items or features (such as "Remove Ads" options or virtual booster packs) may be offered for real money as In-App Purchases (IAP). All financial transactions are processed securely through the <strong>Google Play In-App Billing</strong> system and are subject to Google Play's standard terms of service.</p>
+    <p><strong>Refund Policy:</strong> All purchases are final and non-refundable, except where required by applicable statutory consumer protection law or under Google Play's standard refund policies. Refund requests must be submitted directly through your Google Play account order history.</p>
+
+    <h2>7. Advertisements & Third-Party Mediation Services</h2>
+    <p>To support ongoing development and offer our Games free-to-play, our applications display advertisements from certified third-party ad networks and mediation partners, including:</p>
+    <ul>
+        <li><strong>Google AdMob</strong> (Google Mobile Ads SDK)</li>
+        <li><strong>Meta Audience Network</strong> (Facebook Bidding & Mediation)</li>
+        <li><strong>Unity Ads</strong></li>
+    </ul>
+    <p>Ad formats include banner advertisements, interstitial ads between game levels, app open ads, and optional rewarded video ads. By choosing to watch rewarded video ads, players may earn extra in-game rewards, coins, or hints.</p>
+    <p>BRStudio does not control the content of third-party advertisements. Clicking on an advertisement may direct you to external third-party websites or services that operate under their own terms of service and privacy policies.</p>
+
+    <h2>8. User Conduct & Fair Play</h2>
+    <p>While using our Games, you agree not to:</p>
+    <ul>
+        <li>Use cheats, hacks, automation bots, game modifiers, or unauthorized software to manipulate gameplay, scoreboards, coin balances, or progression.</li>
+        <li>Tamper with local device save files (such as <code>PlayerPrefs</code> or game storage) or attempt memory injection.</li>
+        <li>Exploit any glitches, bugs, or unintended mechanics for unfair advantage.</li>
+        <li>Attempt to intercept, probe, or tamper with ad network delivery, mediation calls, or billing validations.</li>
+        <li>Use our Games for any unlawful, fraudulent, or malicious purpose.</li>
+    </ul>
+    <p>Violation of fair play rules may result in the immediate forfeiture of virtual items, reset of game progress, or permanent suspension of access without liability.</p>
+
+    <h2>9. Game Updates & Balance Changes</h2>
+    <p>BRStudio continuously improves and updates its Games. We reserve the right to update, modify, patch, adjust balance (such as level difficulty, booster costs, or reward amounts), add new levels, or discontinue features or games at any time without prior notice or liability.</p>
+
+    <h2>10. Disclaimers of Warranties</h2>
+    <div class="caps-notice">
+        OUR GAMES AND SERVICES ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BRSTUDIO DISCLAIMS ALL WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT GUARANTEE THAT GAMEPLAY WILL BE UNINTERRUPTED, SECURE, BUG-FREE, OR ERROR-FREE ON ALL DEVICES AT ALL TIMES.
+    </div>
+
+    <h2>11. Limitation of Liability</h2>
+    <div class="caps-notice">
+        TO THE FULLEST EXTENT PERMITTED BY LAW, BRSTUDIO, ITS FOUNDERS, DEVELOPERS, AND PARTNERS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF OR INABILITY TO USE OUR GAMES, INCLUDING LOSS OF PROGRESS, DATA, OR VIRTUAL ITEMS DUE TO UNINSTALLATION OR HARDWARE REPLACEMENT. OUR TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED THE TOTAL AMOUNT PAID BY YOU WITHIN THE APPLICABLE GAME IN THE SIX (6) MONTHS PRECEDING THE CLAIM, OR $50.00 USD, WHICHEVER IS LESS.
+    </div>
+
+    <h2>12. European Union (EEA) & UK Consumer Notice (Trader Status)</h2>
+    <p>If you reside in the European Economic Area (EEA) or the United Kingdom, statutory consumer protection rights apply to you. Under the EU Digital Services Act (DSA), BRStudio acts as a commercial publisher ("trader") on Google Play.</p>
+    <ul>
+        <li><strong>Right of Withdrawal for Digital Content:</strong> Under EU/EEA and UK law, consumers generally have a 14-day withdrawal period for distance contracts. However, when purchasing digital content or in-game virtual items, you acknowledge and agree that digital content delivery begins immediately upon purchase, and you expressly waive your 14-day statutory right of withdrawal once delivery has started.</li>
+        <li><strong>Statutory Guarantees:</strong> Nothing in these Terms shall limit or diminish your mandatory legal consumer rights under local consumer protection legislation.</li>
+    </ul>
+
+    <h2>13. Governing Law & Dispute Resolution</h2>
+    <p>These Terms shall be governed by, interpreted, and construed in accordance with the laws of <strong>India</strong>, without giving effect to any principles of conflicts of law. Any legal dispute, controversy, or claim arising out of or relating to these Terms or our Games shall be subject to the exclusive jurisdiction of the competent courts of <strong>Gujarat, India</strong>.</p>
+
+    <h2>14. Contact Information</h2>
+    <p>If you have any questions, feedback, or legal inquiries regarding these Terms of Service or any game published by BRStudio, please contact us at:</p>
+    <ul>
+        <li><strong>Developer Studio:</strong> BRStudio</li>
+        <li><strong>Contact Person:</strong> Bhavesh Rathod</li>
+        <li><strong>Email:</strong> <a href="mailto:rathodbhavesh1611@gmail.com">rathodbhavesh1611@gmail.com</a></li>
+        <li><strong>Developer Portfolio:</strong> Google Play Store &mdash; BRStudio</li>
+    </ul>
+
+    <div class="footer">
+        &copy; 2026 BRStudio. All rights reserved. Solitaire Sort &bull; Math Solitaire &bull; Italian Brainrot Merge Drop &bull; Word Connect &bull; Hexa Arrow &bull; Pupdoku.
+    </div>
+</div>
+
+</body>
+</html>
